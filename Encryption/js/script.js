@@ -1,6 +1,7 @@
-var input = document.getElementById("txt");
-var output = document.getElementById("txt1");
-var outputt = document.getElementById("txt2");
+
+var input = $("#txt");
+var output = $("#txt1");
+var outputt = $("#txt2");
 
 function Encrypt() {
     for (var i = 0; i < input.value.length; i++) {
